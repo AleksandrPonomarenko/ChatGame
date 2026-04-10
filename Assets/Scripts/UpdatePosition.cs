@@ -18,9 +18,11 @@ public class UpdatePosition : MonoBehaviour
                 PlayerInfo _infoPlayer = online.players[load.data[i].id].GetComponent<PlayerInfo>();
                 _infoPlayer.currentCell.RemovePlayer(_infoPlayer);
 
+                /*
                 CellInfo _infoCell = GameObject.Find(load.data[i].move).GetComponent<CellInfo>();
                 _infoCell.AddPlayer(_infoPlayer);
                 _infoCell.MovePlayer(_infoPlayer);
+                */
             }
         }
 

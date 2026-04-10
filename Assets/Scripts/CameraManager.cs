@@ -8,7 +8,7 @@ public class CameraManager : MonoBehaviour
     private Camera camComponent;
     private float targetSize;
     private float playerCamSize = 3f;
-    private float globalCamSize = 6f;
+    private float globalCamSize = 10f;
 
     void Start()
     {
